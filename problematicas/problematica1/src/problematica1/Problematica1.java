@@ -49,7 +49,7 @@ public class Problematica1 {
             promedioEstaturas = (promedioEstaturas + estatura) / contador;
             contador = contador + 1;
 
-        } while (contador == limite);
+        } while (contador <= limite);
         System.out.printf("%s%sPromedio de edades: %.2f\nPromedio de estaturas: "
                 + "%.2f\n", ficha, listadoEdades, promedioEdades, promedioEstaturas);
 
